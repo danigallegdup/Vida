@@ -15,7 +15,7 @@ export default function TabOneScreen() {
 
 
   // The total number of boxes to be colored blue
-  const totalBlueBoxes =  1181;
+  const totalBlueBoxes =  1196;
 
   // Helper function to determine the color of the box
   const getBoxColor = (boxIndex: number): string => {
