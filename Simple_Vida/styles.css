@@ -1,0 +1,43 @@
+.box {
+    width: 25px;
+    height: 25px;
+    
+    border: 1px solid black;
+    margin: 1px;
+   
+    text-align: center;
+    line-height: 100px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.grid-container {
+    display: grid;
+    width: 33.33vw;
+    grid-template-columns: repeat(53, 1fr); /* Increase number of columns by 1 for number line */
+    grid-template-rows: repeat(101, 1fr); /* Increase number of rows by 1 for number line */
+}
+
+.box {
+    width: 5px;
+    height: 3px;
+    background-color: #343333;
+}
+
+.number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 7px;
+    color: black;
+}
+
+.lived {
+    background-color: #FF0000;
+}
+
+.yet-to-live{
+    background-color: #FFA500;
+}
